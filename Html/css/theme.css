@@ -10985,12 +10985,12 @@ header {
       padding-left: 10px;
       padding-right: 10px; } }
   header .tt-color-scheme-01 {
-    background: #303030;
-    color: #888888; }
+    background: #ee1414;
+    color: #fff; }
     header .tt-color-scheme-01 .tt-box-info ul li a {
-      color: #888888; }
+      color: #fff; }
       header .tt-color-scheme-01 .tt-box-info ul li a:hover {
-        color: #888888; }
+        color: #fff; }
       header .tt-color-scheme-01 .tt-box-info ul li a.tt-link-underline {
         color: #2879fe; }
         header .tt-color-scheme-01 .tt-box-info ul li a.tt-link-underline:before {
@@ -11714,7 +11714,10 @@ header .container-fluid {
 
 .tt-desctop-menu:not(.tt-hover-02) li.dropdown > a {
   color: #191919;
-  background: transparent; }
+  background: transparent;
+  font-size:20px;
+  text-transform:uppercase; 
+  font-weight:500;}
 
 .tt-desctop-menu:not(.tt-hover-02) li.dropdown > a:hover {
   color: #2879fe;
@@ -23986,7 +23989,8 @@ html:not(.ie) #loader .dot {
     -webkit-align-items: flex-end;
     -ms-flex-align: end;
     align-items: flex-end;
-    direction: ltr; }
+    direction: ltr;
+	display:none; }
     #tt-boxedbutton .rtlbutton:not(:first-child) {
       margin-top: 5px; }
     #tt-boxedbutton .rtlbutton {
@@ -26175,7 +26179,7 @@ input::-ms-clear {
   display: inline-block; }
   .tt-logo img {
     height: auto;
-    max-height: 20px; }
+    max-height: 70px; }
 
 /* tt-box-info */
 .tt-box-info {
