@@ -19325,7 +19325,7 @@ html.ie .tt-btn-col-close {
         -webkit-transition: color 0.2s linear;
         transition: color 0.2s linear; }
         .tt-product:not(.tt-view) .tt-description .tt-btn-addtocart.thumbprod-button-bg {
-          background-color: #2879fe;
+          background-color: #333333;
           color: #ffffff;
           padding: 3px 16px 9px;
           -webkit-border-radius: 6px;
@@ -19338,7 +19338,7 @@ html.ie .tt-btn-col-close {
           .tt-product:not(.tt-view) .tt-description .tt-btn-addtocart.thumbprod-button-bg:before {
             color: #ffffff; }
           .tt-product:not(.tt-view) .tt-description .tt-btn-addtocart.thumbprod-button-bg:hover {
-            background-color: #2267d8;
+            background-color: #ec1818;
             color: #ffffff; }
             .tt-product:not(.tt-view) .tt-description .tt-btn-addtocart.thumbprod-button-bg:hover:before {
               color: #ffffff; }
@@ -20934,7 +20934,7 @@ html:not(.ie) .tt-promo-box .tt-description .tt-description-wrapper .tt-backgrou
       -webkit-transition: color 0.2s linear;
       transition: color 0.2s linear; }
     .tt-promo-fullwidth .tt-description .tt-title-large {
-      font-family: "Hind", sans-serif;
+      font-family: 'Righteous', cursive;
       color: #191919;
       font-size: 90px;
       line-height: 90px;
@@ -25652,7 +25652,7 @@ a:focus {
   outline: none; }
 
 .btn {
-  background: #2879fe;
+  background: #333;
   font-family: "Hind", sans-serif;
   border: none;
   color: #ffffff;
