@@ -18918,7 +18918,8 @@ html.ie .tt-btn-col-close {
 /* tt-product item  desctope*/
 @media (min-width: 1025px) {
   .tt-product:not(.tt-view).thumbprod-center {
-    text-align: center; }
+    text-align: center;
+	margin-bottom:30px; }
     .tt-product:not(.tt-view).thumbprod-center .tt-description .tt-row {
       -webkit-flex-direction: column;
       -ms-flex-direction: column;
