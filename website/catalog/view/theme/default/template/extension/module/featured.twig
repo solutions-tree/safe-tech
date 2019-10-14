@@ -1,0 +1,48 @@
+<div class="container-indent">
+	<div class="container container-fluid-custom-mobile-padding">
+		<div class="tt-block-title">
+			<h1 class="tt-title">Our Products</h1>
+			<div class="tt-description">Long Life Batteries</div>
+		</div>
+		
+		
+		<div class="row tt-layout-product-item">
+			{% for product in products %}
+			<div class="col-6 col-md-4 col-lg-3">
+				<div class="tt-product thumbprod-center product-nohover">
+					<div class="tt-image-box">
+						
+						<a href="{{ product.href }}">
+							<span class="tt-img"><img src="images/loader.svg" data-src="{{ product.thumb }}" alt="{{ product.name }}"></span>
+							<span class="tt-img-roll-over"><img src="catalog/view/theme/default/custom/images/loader.svg" data-src="
+							{{product.back_image}}" alt=""></span>
+							<span class="tt-label-location">
+								<span class="tt-label-new">New</span>
+							</span>
+						</a>
+					</div>
+					<div class="tt-description">
+						<div class="tt-row">
+							<ul class="tt-add-info">
+								<li><a href="{{ product.href }}">{{ product.name }}</a></li>
+							</ul>
+							
+						</div>
+						<h2 class="tt-title"><a href="{{ product.href }}">Tubular Battery</a></h2>
+						<div class="tt-price">
+							Warranty 24+24 *
+						</div>
+						
+						<div class="tt-product-inside-hover">
+							<div class="tt-row-btn">
+								<a href="{{ product.href }}" class="tt-btn-addtocart thumbprod-button-bg">VIEW MORE</a>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>

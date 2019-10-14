@@ -1,0 +1,21 @@
+<div class="container-indent nomargin">
+	<div class="container-fluid-custom">
+		<div class="row">
+			{% for banner in banners %}
+			<div class="col-6 col-sm-6 col-md-3 col-12-575width">
+				
+				<a href="{% if banner.link %}{{ banner.link }}{% else %}#{% endif %}" class="tt-promo-box tt-one-child">
+					<img src="catalog/view/theme/default/custom/images/loader.svg" data-src="{{ banner.image }}" alt="{{ banner.title }}">
+					<div class="tt-description">
+						<div class="tt-description-wrapper">
+							<div class="tt-background"></div>
+							<div class="tt-title-small">{{ banner.title }}</div>
+						</div>
+					</div>
+					
+				</a>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>

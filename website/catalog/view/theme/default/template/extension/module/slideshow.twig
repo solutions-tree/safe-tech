@@ -1,0 +1,19 @@
+<div class="container-indent nomargin">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="slider-revolution revolution-default">
+				<div class="tp-banner-container">
+					<div class="tp-banner revolution">
+						<ul>
+							{% for banner in banners %}
+							<li data-thumb="{{ banner.image }}" data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off"  data-title="Slide">
+								<img src="{{ banner.image }}"  alt="{{ banner.title }}"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" >
+							</li>
+							{% endfor %}
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

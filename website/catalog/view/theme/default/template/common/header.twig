@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>{{ title }}</title>
+		<base href="{{ base }}" />
+		{% if description %}
+		<meta name="description" content="{{ description }}" />
+		{% endif %}
+		{% if keywords %}
+		<meta name="keywords" content="{{ keywords }}" />
+		{% endif %}
+		<meta name="author" content="SafeTech">
+		<link rel="shortcut icon" href="favicon.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="catalog/view/theme/default/custom/css/theme.css">
+		<link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet"> 
+	</head>
+	<body>
+		<div id="loader-wrapper">
+			<div id="loader">
+				<div class="dot"></div>
+				<div class="dot"></div>
+				<div class="dot"></div>
+				<div class="dot"></div>
+				<div class="dot"></div>
+				<div class="dot"></div>
+				<div class="dot"></div>
+			</div>
+		</div>
+		<header>
+			<div class="tt-color-scheme-01">
+				<div class="container">
+					<div class="tt-header-row tt-top-row">
+						<div class="tt-col-left">
+							<div class="tt-box-info">
+								<ul>
+									<li><i class="icon-f-93"></i><a href="tel:+77723457885">+0172-123456789</a>; <a href="tel:+0172-123456789">+0172-123456789</a></li>
+									<li><i class="icon-f-92"></i>Email: <a href="mailto:info@safetech.com ">info@safetech.com </a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="tt-col-right ml-auto">
+							<ul class="tt-social-icon">
+								<li style="font-weight:600; font-size:18px;">An ISO 9001:2015 Comapny Product</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			{{ menu }}				
